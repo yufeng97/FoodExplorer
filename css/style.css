@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    display: flex;
+    min-height: 75vh;
+    flex-direction: column;
+}
+.main.container {
+    flex: 1 0 auto;
+}
+.droparea{
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #ccc;
+    color: #ccc;
+    line-height: 300px;
+    text-align: center;
+}
+.droparea.dragover{
+    border-color: black;
+    color: black;
+}
+#mapholder{
+    width: 100%;
+    height: 310px;
+}
